@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 10: style property frame is not known.
-    frame:
-         ^
+File "game/script.rpy", line 84: expected statement.
+    "{b}" + typed_text + "{/b}"
+          ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Thu Mar 21 13:22:01 2024
+Thu Mar 21 15:43:25 2024
