@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 30: end of line expected.
-    with block:
-              ^
+File "game/script.rpy", line 84: expected statement.
+    "{b}" + typed_text + "{/b}"
+          ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Fri Mar 22 13:47:58 2024
+Thu Mar 21 15:43:25 2024

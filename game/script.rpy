@@ -1,4 +1,7 @@
-﻿image bg office_background = "office.png"
+﻿init:
+    $ preferences.fullscreen = True
+
+image bg office_background = "office.png"
 image nik normal = "nik_normal.png"
 image nik shy = "nik_shy.png"
 image gala glitched = "gala.png"
@@ -87,17 +90,6 @@ label start:
             call sex() from _call_sex
             return
 
-label write(who, text):
-    $ who " " 
-    $ i = 0
-    $ length = len(text)
-
-    while i < length:
-        $ who text[i]
-        $ i += 1
-        $ renpy.pause(0.1)
-    return
-
 label love():
     scene bg office_background:
         xalign 0.5
@@ -155,7 +147,6 @@ label sex():
 #Буквы
 #Эфеект молнии
 #Тряска
-#звуки стонов, молнии, и тихая музыка с птицами
 
 
 

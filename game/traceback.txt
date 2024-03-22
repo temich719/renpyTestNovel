@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 288, in script
+    python:
+ScriptError: could not find label 'start'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "/home/temich719/renpy/renpy-8.2.1-sdk/renpy/bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "/home/temich719/renpy/renpy-8.2.1-sdk/renpy/main.py", line 635, in main
+    run(restart)
+  File "/home/temich719/renpy/renpy-8.2.1-sdk/renpy/main.py", line 145, in run
+    renpy.execution.run_context(True)
+  File "/home/temich719/renpy/renpy-8.2.1-sdk/renpy/execution.py", line 955, in run_context
+    context.run()
+  File "renpy/common/00start.rpy", line 288, in script
+    python:
+  File "/home/temich719/renpy/renpy-8.2.1-sdk/renpy/script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'start'.
+
+Linux-6.7.7-200.fc39.x86_64-x86_64-with-glibc2.38 x86_64
+Ren'Py 8.2.1.24030407
+ 
+Fri Mar 22 12:28:48 2024
